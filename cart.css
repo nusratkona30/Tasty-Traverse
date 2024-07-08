@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/488010990/vector/cupcake-seamless-pattern.jpg?s=612x612&w=0&k=20&c=g6uVs1n3m3H-_-cWO-QnN036tpYBo2mhCzYC-_Zl7wI=");
+    font-family: "Pacifico", cursive;
+    color: #aa186d;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.hp {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: white;
+    background-color: #aa186d;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hp:hover {
+    background-color: #f05fdc;
+}
+
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cart-item {
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-cute-dessert-snack-cake-background-picture-image_1432800.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: #790c4b; 
+}
+
+.cart-item img {
+    width: 90%;
+    height: 75%;
+    border-radius: 8px;
+}
+
+
+.btn{
+    background-color: #fadbee;
+    border: #fdcbea;
+    color: rgb(122, 8, 65); 
+    border-radius: 5px; 
+    font-size: 18px;
+}

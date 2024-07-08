@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    background-image: url("body.jpg");
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-image: url("https://media.istockphoto.com/id/488010990/vector/cupcake-seamless-pattern.jpg?s=612x612&w=0&k=20&c=g6uVs1n3m3H-_-cWO-QnN036tpYBo2mhCzYC-_Zl7wI=");
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+.nav ul li {
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: #60488e;
+}
+
+
+
+.nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px #865672;
+    z-index: 1;
+    width: 250px;
+}
+
+.nav ul li .dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #865672;
+}
+
+.nav ul li .dropdown a:hover {
+    background-color: #ffb8b8;
+}
+
+.nav ul li.account:hover .dropdown {
+    display: block;
+}
+
+
+a {
+    padding: 90px;
+}
+
+.log {
+    display: none;
+}
+
+
+
+.logo {
+    font-family: "Pacifico", cursive;
+    margin-top: 10%;
+    font-size: 120px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #865672;
+}
+
+.flex-container {
+    margin: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+    color: #865672;
+    font-size: 40px;
+}
+
+.flex-box {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.flex-box img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #865672;
+}
+
+.flex-box:hover {
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+}

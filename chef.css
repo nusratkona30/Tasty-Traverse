@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pacifico", cursive;
+    text-decoration: none;
+    color: #4b1635;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/545/238/original/kitchen-utensils-seamless-pattern-wallpaper-textiles-hand-drawn-doodle-minimalism-monochrome-sketch-fork-spoon-whisk-spatula-rolling-pin-cutting-board-food-cooking-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+.chef {
+    text-align: center;
+    margin: 20px 0;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 300px; 
+    height: 300px;
+    padding-inline: 100px; 
+    margin-top: 30px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.intro {
+    margin-top: 10px;
+    padding-inline: 170px; 
+}
+
+.card img:hover {
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+}

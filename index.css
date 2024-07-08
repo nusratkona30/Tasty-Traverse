@@ -1,0 +1,31 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    color: #865672;
+}
+body {
+    background-image: url("https://media.istockphoto.com/id/488010990/vector/cupcake-seamless-pattern.jpg?s=612x612&w=0&k=20&c=g6uVs1n3m3H-_-cWO-QnN036tpYBo2mhCzYC-_Zl7wI=");
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    color:#865672; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+li {
+    background-color: #ffd1dc;
+    border: 2px solid #865672; 
+    padding: 10px;
+    margin: 10px; 
+    width: 50vw;
+}
+
+ul{
+    width: 98%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+

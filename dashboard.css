@@ -1,0 +1,31 @@
+.card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px;
+            width: calc(20% - 40px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+        }
+        .card h4, .card p {
+            margin: 0 0 8px;
+        }
+        .food-type-section {
+            margin-bottom: 40px;
+        }
+        .food-type-section h3 {
+            margin-bottom: 20px;
+        }
+        
+  

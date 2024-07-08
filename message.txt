@@ -1,0 +1,142 @@
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .menu {
+            background-image: url("https://cdn1.vectorstock.com/i/1000x1000/28/50/cake-shop-with-copy-space-on-pink-background-vector-47632850.jpg");
+            background-size: cover;
+            background-position: center;
+            border-style: dashed;
+            font-family: 'Pacifico', cursive;
+            font-size: 50px;
+            color: #3b1f30;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cupcake {
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow-x: auto;
+            padding: 10px;
+        }
+
+        .card {
+            background-image: url('box.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: 300px;
+            width: 250px;
+            margin: 20px;
+            background-color: #fff;
+            overflow: hidden;
+            position: relative;
+            padding-top: 60px;
+            transition: transform 0.3s, box-shadow 0.3s;
+   
+        }
+
+        .card img {
+            width: 80%;
+            height: 150px;
+            object-fit: cover;
+    
+            top: 0px;
+            display: block;
+            margin: 0 auto;
+   
+            border-radius: 5px;
+        }
+
+        .dma {
+            font-size: 20px;
+            color: #3b1f30;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card button {
+            display: inline-block;
+            width: 45%;
+            margin: 5px 2%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+
+        .card button i {
+            margin-right: 5px;
+        }
+
+        .cart {
+            background-color: #ff6f61;
+            color: white;
+        }
+
+        .cart:hover {
+            background-color: #ff3b2f;
+        }
+
+        .wish {
+            background-color: #ffca28;
+            color: white;
+        }
+
+        .wish:hover {
+            background-color: #ffb300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <h1>Bakery Delicacies</h1>
+    </div>
+
+    <div class="container">
+        <div class="cupcake">
+            <div class="card">
+                <img src="https://sugargeekshow.com/wp-content/uploads/2022/08/vanilla_cupcake_featured_blog.jpg" alt="food">
+                <div class="dma">$20</div>
+                <button class="cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                <button class="wish"><i class="fas fa-heart"></i> Add to Wishlist</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+```
