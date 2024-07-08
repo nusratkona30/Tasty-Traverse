@@ -28,7 +28,7 @@ h2 {
     background-color: #f05fdc;
 }
 
-.cart {
+.wishlist {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -44,6 +44,8 @@ h2 {
     background-size: cover;
     background-position: center;
     color: #790c4b; 
+    box-shadow: 3px 3px 15px rgb(122, 8, 65); 
+    margin: 20px;
 }
 
 .wishlist-item img {
